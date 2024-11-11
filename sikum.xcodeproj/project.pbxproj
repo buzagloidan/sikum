@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA474D92CE23199006B1F48 /* sikumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA474D82CE23199006B1F48 /* sikumApp.swift */; };
+		CFA474DB2CE23199006B1F48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA474DA2CE23199006B1F48 /* ContentView.swift */; };
+		CFA474DD2CE2319B006B1F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA474DC2CE2319B006B1F48 /* Assets.xcassets */; };
+		CFA474E02CE2319B006B1F48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA474DF2CE2319B006B1F48 /* Preview Assets.xcassets */; };
+		CFA474EA2CE2319B006B1F48 /* sikumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA474E92CE2319B006B1F48 /* sikumTests.swift */; };
+		CFA474F42CE2319B006B1F48 /* sikumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA474F32CE2319B006B1F48 /* sikumUITests.swift */; };
+		CFA474F62CE2319B006B1F48 /* sikumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA474F52CE2319B006B1F48 /* sikumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA474E62CE2319B006B1F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA474CD2CE23199006B1F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA474D42CE23199006B1F48;
+			remoteInfo = sikum;
+		};
+		CFA474F02CE2319B006B1F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA474CD2CE23199006B1F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA474D42CE23199006B1F48;
+			remoteInfo = sikum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFA474D52CE23199006B1F48 /* sikum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sikum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA474D82CE23199006B1F48 /* sikumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sikumApp.swift; sourceTree = "<group>"; };
+		CFA474DA2CE23199006B1F48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFA474DC2CE2319B006B1F48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA474DF2CE2319B006B1F48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFA474E52CE2319B006B1F48 /* sikumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sikumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA474E92CE2319B006B1F48 /* sikumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sikumTests.swift; sourceTree = "<group>"; };
+		CFA474EF2CE2319B006B1F48 /* sikumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sikumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA474F32CE2319B006B1F48 /* sikumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sikumUITests.swift; sourceTree = "<group>"; };
+		CFA474F52CE2319B006B1F48 /* sikumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sikumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA474D22CE23199006B1F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA474E22CE2319B006B1F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA474EC2CE2319B006B1F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA474CC2CE23199006B1F48 = {
+			isa = PBXGroup;
+			children = (
+				CFA474D72CE23199006B1F48 /* sikum */,
+				CFA474E82CE2319B006B1F48 /* sikumTests */,
+				CFA474F22CE2319B006B1F48 /* sikumUITests */,
+				CFA474D62CE23199006B1F48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA474D62CE23199006B1F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA474D52CE23199006B1F48 /* sikum.app */,
+				CFA474E52CE2319B006B1F48 /* sikumTests.xctest */,
+				CFA474EF2CE2319B006B1F48 /* sikumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA474D72CE23199006B1F48 /* sikum */ = {
+			isa = PBXGroup;
+			children = (
+				CFA474D82CE23199006B1F48 /* sikumApp.swift */,
+				CFA474DA2CE23199006B1F48 /* ContentView.swift */,
+				CFA474DC2CE2319B006B1F48 /* Assets.xcassets */,
+				CFA474DE2CE2319B006B1F48 /* Preview Content */,
+			);
+			path = sikum;
+			sourceTree = "<group>";
+		};
+		CFA474DE2CE2319B006B1F48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFA474DF2CE2319B006B1F48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFA474E82CE2319B006B1F48 /* sikumTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA474E92CE2319B006B1F48 /* sikumTests.swift */,
+			);
+			path = sikumTests;
+			sourceTree = "<group>";
+		};
+		CFA474F22CE2319B006B1F48 /* sikumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA474F32CE2319B006B1F48 /* sikumUITests.swift */,
+				CFA474F52CE2319B006B1F48 /* sikumUITestsLaunchTests.swift */,
+			);
+			path = sikumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA474D42CE23199006B1F48 /* sikum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA474F92CE2319B006B1F48 /* Build configuration list for PBXNativeTarget "sikum" */;
+			buildPhases = (
+				CFA474D12CE23199006B1F48 /* Sources */,
+				CFA474D22CE23199006B1F48 /* Frameworks */,
+				CFA474D32CE23199006B1F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sikum;
+			productName = sikum;
+			productReference = CFA474D52CE23199006B1F48 /* sikum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA474E42CE2319B006B1F48 /* sikumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA474FC2CE2319B006B1F48 /* Build configuration list for PBXNativeTarget "sikumTests" */;
+			buildPhases = (
+				CFA474E12CE2319B006B1F48 /* Sources */,
+				CFA474E22CE2319B006B1F48 /* Frameworks */,
+				CFA474E32CE2319B006B1F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA474E72CE2319B006B1F48 /* PBXTargetDependency */,
+			);
+			name = sikumTests;
+			productName = sikumTests;
+			productReference = CFA474E52CE2319B006B1F48 /* sikumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFA474EE2CE2319B006B1F48 /* sikumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA474FF2CE2319B006B1F48 /* Build configuration list for PBXNativeTarget "sikumUITests" */;
+			buildPhases = (
+				CFA474EB2CE2319B006B1F48 /* Sources */,
+				CFA474EC2CE2319B006B1F48 /* Frameworks */,
+				CFA474ED2CE2319B006B1F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA474F12CE2319B006B1F48 /* PBXTargetDependency */,
+			);
+			name = sikumUITests;
+			productName = sikumUITests;
+			productReference = CFA474EF2CE2319B006B1F48 /* sikumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA474CD2CE23199006B1F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CFA474D42CE23199006B1F48 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CFA474E42CE2319B006B1F48 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CFA474D42CE23199006B1F48;
+					};
+					CFA474EE2CE2319B006B1F48 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CFA474D42CE23199006B1F48;
+					};
+				};
+			};
+			buildConfigurationList = CFA474D02CE23199006B1F48 /* Build configuration list for PBXProject "sikum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA474CC2CE23199006B1F48;
+			productRefGroup = CFA474D62CE23199006B1F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA474D42CE23199006B1F48 /* sikum */,
+				CFA474E42CE2319B006B1F48 /* sikumTests */,
+				CFA474EE2CE2319B006B1F48 /* sikumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA474D32CE23199006B1F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA474E02CE2319B006B1F48 /* Preview Assets.xcassets in Resources */,
+				CFA474DD2CE2319B006B1F48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA474E32CE2319B006B1F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA474ED2CE2319B006B1F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA474D12CE23199006B1F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA474DB2CE23199006B1F48 /* ContentView.swift in Sources */,
+				CFA474D92CE23199006B1F48 /* sikumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA474E12CE2319B006B1F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA474EA2CE2319B006B1F48 /* sikumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA474EB2CE2319B006B1F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA474F62CE2319B006B1F48 /* sikumUITestsLaunchTests.swift in Sources */,
+				CFA474F42CE2319B006B1F48 /* sikumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA474E72CE2319B006B1F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA474D42CE23199006B1F48 /* sikum */;
+			targetProxy = CFA474E62CE2319B006B1F48 /* PBXContainerItemProxy */;
+		};
+		CFA474F12CE2319B006B1F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA474D42CE23199006B1F48 /* sikum */;
+			targetProxy = CFA474F02CE2319B006B1F48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFA474F72CE2319B006B1F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFA474F82CE2319B006B1F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA474FA2CE2319B006B1F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sikum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = buza.sikum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFA474FB2CE2319B006B1F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sikum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = buza.sikum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFA474FD2CE2319B006B1F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = buza.sikumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sikum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sikum";
+			};
+			name = Debug;
+		};
+		CFA474FE2CE2319B006B1F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = buza.sikumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sikum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sikum";
+			};
+			name = Release;
+		};
+		CFA475002CE2319B006B1F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = buza.sikumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sikum;
+			};
+			name = Debug;
+		};
+		CFA475012CE2319B006B1F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = buza.sikumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sikum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA474D02CE23199006B1F48 /* Build configuration list for PBXProject "sikum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA474F72CE2319B006B1F48 /* Debug */,
+				CFA474F82CE2319B006B1F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA474F92CE2319B006B1F48 /* Build configuration list for PBXNativeTarget "sikum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA474FA2CE2319B006B1F48 /* Debug */,
+				CFA474FB2CE2319B006B1F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA474FC2CE2319B006B1F48 /* Build configuration list for PBXNativeTarget "sikumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA474FD2CE2319B006B1F48 /* Debug */,
+				CFA474FE2CE2319B006B1F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA474FF2CE2319B006B1F48 /* Build configuration list for PBXNativeTarget "sikumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA475002CE2319B006B1F48 /* Debug */,
+				CFA475012CE2319B006B1F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA474CD2CE23199006B1F48 /* Project object */;
+}
