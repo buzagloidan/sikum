@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF360EF02CE35191004400E4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF360EEF2CE35191004400E4 /* Theme.swift */; };
+		CF360EF22CE351B4004400E4 /* FlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF360EF12CE351B4004400E4 /* FlashcardView.swift */; };
+		CF360EFA2CE3603C004400E4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF360EF92CE3603C004400E4 /* MainTabView.swift */; };
+		CF360EFC2CE3605F004400E4 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF360EFB2CE3605F004400E4 /* QuizView.swift */; };
+		CF360EFE2CE360E5004400E4 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF360EFD2CE360E5004400E4 /* StudyView.swift */; };
+		CF360F022CE365A0004400E4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF360F012CE365A0004400E4 /* Models.swift */; };
 		CFA474D92CE23199006B1F48 /* sikumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA474D82CE23199006B1F48 /* sikumApp.swift */; };
-		CFA474DB2CE23199006B1F48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA474DA2CE23199006B1F48 /* ContentView.swift */; };
 		CFA474DD2CE2319B006B1F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA474DC2CE2319B006B1F48 /* Assets.xcassets */; };
 		CFA474E02CE2319B006B1F48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA474DF2CE2319B006B1F48 /* Preview Assets.xcassets */; };
 		CFA474EA2CE2319B006B1F48 /* sikumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA474E92CE2319B006B1F48 /* sikumTests.swift */; };
 		CFA474F42CE2319B006B1F48 /* sikumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA474F32CE2319B006B1F48 /* sikumUITests.swift */; };
 		CFA474F62CE2319B006B1F48 /* sikumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA474F52CE2319B006B1F48 /* sikumUITestsLaunchTests.swift */; };
+		CFA475052CE233BC006B1F48 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA475042CE233BC006B1F48 /* AIService.swift */; };
+		CFA475072CE234F4006B1F48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA475062CE234F4006B1F48 /* ContentView.swift */; };
+		CFA622E92CE607EA004520DD /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA622E82CE607EA004520DD /* DocumentPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF360EEF2CE35191004400E4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CF360EF12CE351B4004400E4 /* FlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardView.swift; sourceTree = "<group>"; };
+		CF360EF92CE3603C004400E4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CF360EFB2CE3605F004400E4 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		CF360EFD2CE360E5004400E4 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
+		CF360F012CE365A0004400E4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		CFA474D52CE23199006B1F48 /* sikum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sikum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA474D82CE23199006B1F48 /* sikumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sikumApp.swift; sourceTree = "<group>"; };
-		CFA474DA2CE23199006B1F48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFA474DC2CE2319B006B1F48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFA474DF2CE2319B006B1F48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFA474E52CE2319B006B1F48 /* sikumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sikumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,9 @@
 		CFA474EF2CE2319B006B1F48 /* sikumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sikumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA474F32CE2319B006B1F48 /* sikumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sikumUITests.swift; sourceTree = "<group>"; };
 		CFA474F52CE2319B006B1F48 /* sikumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sikumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFA475042CE233BC006B1F48 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		CFA475062CE234F4006B1F48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFA622E82CE607EA004520DD /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +110,18 @@
 		CFA474D72CE23199006B1F48 /* sikum */ = {
 			isa = PBXGroup;
 			children = (
-				CFA474D82CE23199006B1F48 /* sikumApp.swift */,
-				CFA474DA2CE23199006B1F48 /* ContentView.swift */,
+				CFA475042CE233BC006B1F48 /* AIService.swift */,
 				CFA474DC2CE2319B006B1F48 /* Assets.xcassets */,
+				CFA475062CE234F4006B1F48 /* ContentView.swift */,
+				CF360EF12CE351B4004400E4 /* FlashcardView.swift */,
 				CFA474DE2CE2319B006B1F48 /* Preview Content */,
+				CFA474D82CE23199006B1F48 /* sikumApp.swift */,
+				CF360EEF2CE35191004400E4 /* Theme.swift */,
+				CF360EF92CE3603C004400E4 /* MainTabView.swift */,
+				CF360EFB2CE3605F004400E4 /* QuizView.swift */,
+				CF360EFD2CE360E5004400E4 /* StudyView.swift */,
+				CF360F012CE365A0004400E4 /* Models.swift */,
+				CFA622E82CE607EA004520DD /* DocumentPicker.swift */,
 			);
 			path = sikum;
 			sourceTree = "<group>";
@@ -215,6 +239,10 @@
 				Base,
 			);
 			mainGroup = CFA474CC2CE23199006B1F48;
+			packageReferences = (
+				CF360EF72CE35914004400E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CF360EF82CE35A23004400E4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = CFA474D62CE23199006B1F48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA474DB2CE23199006B1F48 /* ContentView.swift in Sources */,
+				CF360EF22CE351B4004400E4 /* FlashcardView.swift in Sources */,
+				CFA475052CE233BC006B1F48 /* AIService.swift in Sources */,
+				CF360EF02CE35191004400E4 /* Theme.swift in Sources */,
+				CF360EFE2CE360E5004400E4 /* StudyView.swift in Sources */,
+				CF360EFA2CE3603C004400E4 /* MainTabView.swift in Sources */,
+				CF360EFC2CE3605F004400E4 /* QuizView.swift in Sources */,
+				CF360F022CE365A0004400E4 /* Models.swift in Sources */,
+				CFA475072CE234F4006B1F48 /* ContentView.swift in Sources */,
+				CFA622E92CE607EA004520DD /* DocumentPicker.swift in Sources */,
 				CFA474D92CE23199006B1F48 /* sikumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +613,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF360EF72CE35914004400E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+		CF360EF82CE35A23004400E4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = CFA474CD2CE23199006B1F48 /* Project object */;
 }

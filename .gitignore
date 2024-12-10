@@ -1,0 +1,32 @@
+# Xcode
+.DS_Store
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+DerivedData/
+build/
+
+# Sensitive Configuration
+Config.xcconfig
+**/GoogleService-Info.plist
+.env
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+*.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint 
